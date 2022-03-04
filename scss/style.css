@@ -30,6 +30,7 @@ body {
 }
 
 body {
+  height: 100%;
   position: relative;
 }
 
@@ -45,6 +46,21 @@ body {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+}
+.content_container h1 {
+  width: 90%;
+  margin: 20px auto;
+}
+.content_container p {
+  width: 90%;
+  margin: 20px auto;
+}
+.content_container .avatar_block {
+  width: 90%;
+  margin: 20px auto;
+}
+.content_container .avatar_block * {
+  margin: 0;
 }
 
 .avatar_block {
