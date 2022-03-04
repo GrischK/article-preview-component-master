@@ -1,17 +1,20 @@
 //Base
-@import 'base/normalize';
+@import "base/normalize";
 
 //Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/animation';
-@import 'abstracts/mixins';
+@import "abstracts/variables";
+@import "abstracts/animations";
+@import "abstracts/mixins";
 
 //Components
-@import 'components/buttons';
-@import 'components/images';
+@import "components/buttons";
+@import "components/images";
 
 //Layout
-@import 'layout/footer';
-@import 'layout/header';
-@import 'layout/main_section';
-@import 'layout/nav';
+@import "layout/footer";
+@import "layout/header";
+@import "layout/main_section";
+@import "layout/nav";
+
+//Pages
+@import "pages/index";
