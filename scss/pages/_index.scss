@@ -2,12 +2,25 @@ body{
     position: relative;
 }
 
+* {
+    font-family: 'Manrope';
+}
+
 .content_container{
-    width: 60%;
+    width: 70%;
     display: flex;
-    height: 80%;
+    height: 291px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+}
+
+
+.avatar_block{
+    display: flex;
+}
+
+.avatar_name{
+    @include flexColumnMid;
 }
