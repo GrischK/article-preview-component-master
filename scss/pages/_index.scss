@@ -1,3 +1,7 @@
+html {
+    font-size: 13px;
+}
+
 body{
     height: 100%;
     position: relative;
@@ -17,17 +21,23 @@ body{
     left: 50%;
 
     h1 {
-        width: 90%;
+        width: 80%;
         margin: 20px auto;
+        font-size: 2em;
+        font-weight: 700;
+        color: $Very_Dark_Grayish_Blue;
     }
 
     p {
-        width: 90%;
+        width: 80%;
         margin: 20px auto;
+        font-size: 1.3em;
+        font-weight: 500;
+        color: $Desaturated_Dark_Blue;
     }
 
     .bottom_block {
-        width: 90%;
+        width: 80%;
         margin: 20px auto;
         display: flex;
         justify-content: space-between;
@@ -40,9 +50,16 @@ body{
 
 .avatar_block{
     display: flex;
-}
 
-.avatar_name{
-    @include flexColumnMid;
+    .avatar_name{
+        @include flexColumn;
+        margin-left: 15px;
+        justify-content: center;
+
+        h2{
+            font-weight: 700;
+            color: hsl(217, 19%, 35%);;
+        }
+    }
 }
 

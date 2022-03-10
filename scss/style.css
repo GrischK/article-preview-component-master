@@ -47,6 +47,10 @@ body {
   height: 50px;
 }
 
+html {
+  font-size: 13px;
+}
+
 body {
   height: 100%;
   position: relative;
@@ -66,15 +70,21 @@ body {
   left: 50%;
 }
 .content_container h1 {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
+  font-size: 2em;
+  font-weight: 700;
+  color: #48556a;
 }
 .content_container p {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #6d7f97;
 }
 .content_container .bottom_block {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
@@ -86,10 +96,13 @@ body {
 .avatar_block {
   display: flex;
 }
-
-.avatar_name {
+.avatar_block .avatar_name {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
   justify-content: center;
-  align-items: center;
+}
+.avatar_block .avatar_name h2 {
+  font-weight: 700;
+  color: #48556a;
 }/*# sourceMappingURL=style.css.map */
