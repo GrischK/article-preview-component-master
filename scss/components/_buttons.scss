@@ -1,5 +1,18 @@
+.dark_share_button {
+    border: 0px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: #6E8098;
+    border-radius: 50%;
+}
+
 .share_button {
     border: 0px;
     height: 50px;
     width: 50px;
+    cursor: pointer;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
 }
+

@@ -26,16 +26,17 @@ body{
         margin: 20px auto;
     }
 
-    .avatar_block {
+    .bottom_block {
         width: 90%;
         margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
         
         * {
             margin: 0;
         }
     }
 }
-
 
 .avatar_block{
     display: flex;

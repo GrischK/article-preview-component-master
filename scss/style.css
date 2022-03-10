@@ -1,7 +1,19 @@
+.dark_share_button {
+  border: 0px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: #6E8098;
+  border-radius: 50%;
+}
+
 .share_button {
   border: 0px;
   height: 50px;
   width: 50px;
+  cursor: pointer;
+  background-color: #ecf2f8;
+  border-radius: 50%;
 }
 
 body {
@@ -23,7 +35,7 @@ body {
   width: 40%;
 }
 
-.white_bg_block {
+.infos_block {
   background-color: white;
   width: 60%;
   height: 100%;
@@ -61,11 +73,13 @@ body {
   width: 90%;
   margin: 20px auto;
 }
-.content_container .avatar_block {
+.content_container .bottom_block {
   width: 90%;
   margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
 }
-.content_container .avatar_block * {
+.content_container .bottom_block * {
   margin: 0;
 }
 
