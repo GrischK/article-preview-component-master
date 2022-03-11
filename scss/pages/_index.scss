@@ -69,3 +69,19 @@ body{
     }
 }
 
+@media screen and (max-width : 670px) {
+
+    .secondary_bg{
+        height: 750px;
+    
+        .content_container {
+            @include flexColumn;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .desk, .infos_block {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -145,4 +145,19 @@ body {
 .avatar_block .avatar_name h2 {
   font-weight: 700;
   color: #48556a;
+}
+
+@media screen and (max-width: 670px) {
+  .secondary_bg {
+    height: 750px;
+  }
+  .secondary_bg .content_container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .secondary_bg .content_container .desk, .secondary_bg .content_container .infos_block {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
